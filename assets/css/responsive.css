@@ -1,0 +1,130 @@
+@media only screen and (max-width : 767px) {
+    .btn-style-one {
+        padding: 13px 25px;
+        font-size: 13px;
+    }
+    .btn-style-two {
+        padding: 13px 25px;
+        font-size: 13px;
+    }
+    
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+
+    .section-title {
+        margin: 0 auto 30px;
+    }
+    .section-title h2 {
+        font-size: 25px;
+    }
+
+    /* main-nav */
+    .main-nav {
+        background-color: #000;
+        padding: 15px 0;
+    }
+    .main-nav .navbar-toggler {
+        background: #fff;
+    }
+    .main-nav .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .main-nav.menu-shrink {
+        padding: 15px 0;
+    }
+
+    /* hero-slider */
+    .hero-slider .slider-text h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .hero-slider .slider-text p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .hero-slider .owl-nav button.owl-prev, .hero-slider .owl-nav button.owl-next {
+        left: 20px;
+        top: auto;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+        bottom: 20px;
+    }
+    .hero-slider .owl-nav button.owl-next {
+        left: auto;
+        right: 20px;
+    }
+
+    /* about-text */
+    .about-text {
+        padding-left: 0;
+        margin-top: 15px;
+    }
+
+    /* footer */
+    .footer {
+        text-align: center;
+    }
+    .footer ul {
+        margin: 20px 0 0;
+        text-align: center;
+    }
+}
+  
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .btn-style-two {
+        padding: 17px 35px;
+    }
+
+    .ptb-100 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .pt-100 {
+        padding-top: 60px;
+    }
+    .pb-70 {
+        padding-bottom: 30px;
+    }
+
+    .section-title {
+        margin: 0 auto 30px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    /* main-nav */
+    .main-nav .navbar-nav .nav-link {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    /* about-text */
+    .about-text {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    .back-to-top {
+        bottom: 80px;
+    }
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1399px) {
+
+}
